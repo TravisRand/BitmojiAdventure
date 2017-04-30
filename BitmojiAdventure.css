@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBnYU2vST2WPGLfebhCgP7-RUNe62alQJi5s02QMoJAi8itiCn");
+  font-family: Myriad;
+  text-align: center;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 3px;
+  
+}
+
+.homeAboutContact {
+  display: inline-flex;
+  float: right;
+  color: white;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%; 
+}
+#playbutton {
+  background-color: green;
+  color: #cccc00;
+  font-size: 300%;
+  border: 3px solid black;
+  border-bottom: 4px solid black;
+  border-radius: 4%;
+  margin-top: 3%;
+  margin-bottom: 0%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#playbutton:hover {
+  color: yellow;
+  background-color: rgb(74, 183, 16);
+}
+ul li{
+  display:inline;
+  float: right;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-right: 2%;
+  list-style-type: none;
+}
+.one {
+  background-color: transparent;
+  opacity: 1;
+}
+.two {
+  background-color: #ffd9b3;
+  border-top: 3px solid black;
+  border-bottom: 4px solid black;
+  width:100%;
+}
+.review {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.footer {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 3px;
+}
+li a {
+  color: #ffd9b3;
+}
+li a:visited {
+  color: #ffd9b3;
+  text-decoration: underline 2px solid green;
+}
+li a:hover {
+  text-decoration: none;
+  color: green;
+}
+h6 {
+  padding-top: 2%;
+  color: black;
+  font-weight: bold;
+}
+span {
+  color: green;
+} 
+
+#VictoriaSlide {
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px white;
+  margin-bottom: 20%;
+  font-size: 170%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.CritRev {
+  height: 50%;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  font-style: italic;
+}
+.three {
+  background-color: #ffd9b3 !important;
+  border: 3px solid black;
+  border-bottom: 4px solid black;
+  font-size: 125%;
+}
+#chooseYourAdventurer {
+  font-size: 200%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  font-weight: bold;
+}
+
+#CodeLink {
+  font-size: 100%;
+}
+
+.btn-secondary {
+  color: #cccc00;
+  background-color: green;
+  border-color: black;
+  border-bottom: 2px solid black;
+}
+.btn-secondary:hover {
+  color: yellow;
+  background-color: rgb(74, 183, 16);
+}
+.btn-secondary:visited {
+  color: red;
+}
+#btnStartGame {
+  font-size: 125%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+}
+.bioPic {
+  border-radius: 100px;
+}
+.bioName {
+  font-size: 250%;
+  color: black;
+}
+.bio {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
