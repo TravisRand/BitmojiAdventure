@@ -19,6 +19,13 @@ body {
   padding-top: 2%;
   padding-bottom: 2%; 
 }
+.right.carousel-control {
+  display: none;
+}
+.left.carousel-control {
+  display: none;
+}
+
 #playbutton {
   background-color: green;
   color: #cccc00;
